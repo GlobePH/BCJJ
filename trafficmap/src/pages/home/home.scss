@@ -1,0 +1,85 @@
+page-home {
+
+.title_margin{
+	margin-top: 10em;
+}
+.center{
+	text-align: center;
+}
+
+.nav-bar-block, .bar {
+  background-color: inherit !important;
+}
+
+.login-signup-box {
+    padding: 30px;
+    background-color: #586167;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 2px solid #85b2d8;
+    color: #85b2d8;
+    font-weight: 700;
+    height: 40px;
+}
+
+.sign-up-button {
+    background-color: #85b2d8;
+    border: none;
+    height: 40px;
+}
+
+.login-button, .sign-up-button{
+    border-radius: 20px;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.login-modal, .sign-up-modal{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+.login-title, .sign-up-title {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 3px 3px 0 0;
+}
+
+.login-title {
+    background-color: #81a8ca;
+}
+
+.sign-up-title {
+    background-color: #ff6b6b;
+}
+
+.modal-header {
+    padding: 0px;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.close {
+    text-shadow: none;
+    color: #fff;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+#btn-login-facebook {
+    background-color: #3B5998;
+}
+
+}

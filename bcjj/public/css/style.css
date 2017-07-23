@@ -1,0 +1,456 @@
+.setup-color:hover {
+    color: #FFF;
+}
+
+.color-white, .setup-color {
+    color :#fff;
+}
+
+/* ALL PADDING */
+.padding-small {
+    padding: 10px !important;
+}
+
+.padding-medium {
+    padding: 15px !important;
+}
+
+.padding-large {
+    padding: 30px !important;
+}
+
+.padding-normal {
+    padding: 20px !important;
+}
+
+/* TOP PADDING */
+.padding-top-five {
+    padding-top: 5px !important;
+}
+
+.padding-top-small {
+    padding-top: 10px !important;
+}
+
+.padding-top-medium {
+    padding-top: 15px !important;
+}
+
+.padding-top-large {
+    padding-top: 30px !important;
+}
+
+.padding-top-normal {
+    padding-top: 20px !important;
+}
+
+/* BOTTOM PADDING */
+.padding-bottom-small {
+    padding-bottom: 10px !important;
+}
+
+.padding-bottom-medium {
+    padding-bottom: 15px !important;
+}
+
+.padding-bottom-large {
+    padding-bottom: 30px !important;
+}
+
+.padding-bottom-normal {
+    padding-bottom: 20px !important;
+}
+
+.padding-bottom-fifty {
+    padding-bottom: 50px !important;
+}
+
+.padding-bottom-sixty {
+    padding-bottom: 60px !important;
+}
+
+/* LEFT PADDING */
+.padding-left-small {
+    padding-left: 10px !important;
+}
+
+.padding-left-medium {
+    padding-left: 15px !important;
+}
+
+.padding-left-large {
+    padding-left: 30px !important;
+}
+
+.padding-left-normal {
+    padding-left: 20px !important;
+}
+
+/* RIGHT PADDING */
+.padding-right-small {
+    padding-right: 10px !important;
+}
+
+.padding-right-medium {
+    padding-right: 15px !important;
+}
+
+.padding-right-large {
+    padding-right: 30px !important;
+}
+
+.padding-right-normal {
+    padding-right: 20px !important;
+}
+
+/* NO PADDING */
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-padding-top {
+    padding-top: 0px !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px !important;
+}
+
+.no-padding-left {
+    padding-left: 0px !important;
+}
+
+.no-padding-right {
+    padding-right: 0px !important;
+}
+
+.padding-top-bottom-small {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+/* ALL MARGIN */
+.margin-small {
+    margin: 10px !important;
+}
+
+.margin-medium {
+    margin: 15px !important;
+}
+
+.margin-large {
+    margin: 30px !important;
+}
+
+.margin-normal {
+    margin: 20px !important;
+}
+
+/* TOP MARGIN */
+.margin-top-small {
+    margin-top: 10px !important;
+}
+
+.margin-top-medium {
+    margin-top: 15px !important;
+}
+
+.margin-top-large {
+    margin-top: 30px !important;
+}
+
+.margin-top-normal {
+    margin-top: 20px !important;
+}
+
+/* BOTTOM PADDING */
+.margin-bottom-small {
+    margin-bottom: 10px !important;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 15px !important;
+}
+
+.margin-bottom-large {
+    margin-bottom: 30px !important;
+}
+
+.margin-bottom-normal {
+    margin-bottom: 20px !important;
+}
+
+/* LEFT MARGIN */
+.margin-left-small {
+    margin-left: 10px !important;
+}
+
+.margin-left-medium {
+    margin-left: 15px !important;
+}
+
+.margin-left-large {
+    margin-left: 30px !important;
+}
+
+.margin-left-normal {
+    margin-left: 20px !important;
+}
+
+/* RIGHT MARGIN */
+.margin-right-small {
+    margin-right: 10px !important;
+}
+
+.margin-right-medium {
+    margin-right: 15px !important;
+}
+
+.margin-right-large {
+    margin-right: 30px !important;
+}
+
+.margin-right-normal {
+    margin-right: 20px !important;
+}
+
+/* NO MARGIN */
+.no-margin {
+    margin: 0px !important;
+}
+
+.no-margin-top {
+    margin-top: 0px !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+.no-margin-left {
+    margin-left: 0px !important;
+}
+
+.no-margin-right {
+    margin-right: 0px !important;
+}
+
+/* NO BORDER */
+.no-border {
+    border: 0px !important ;
+}
+
+.no-border-top {
+    border-top: 0px !important;
+}
+
+.no-border-bottom {
+    border-bottom: 0px !important;
+}
+
+.no-border-left {
+    border-left: 0px !important;
+}
+
+.no-border-right {
+    border-right: 0px !important;
+}
+
+
+/* NO BORDER RADIUS */
+.no-border-radius {
+    border-radius: 0px !important;
+}
+
+.map-style {
+    width: 100%;
+    height: 100%;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.btn-cstm {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.pad-cstm {
+    padding: 20px;
+}
+
+.form-control {
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.pnl-status {
+    /*border: 1px solid grey !important;
+    border-radius: 3px !important;*/
+   /* min-height: 150px;*/
+   border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.has-error {
+    border: 1px solid red !important;
+}
+
+.align-center {
+    text-align: center;
+}
+
+@media ( max-width: 991px ) {
+    .right-acc-pad {
+        padding-top: 20px;
+    }
+}
+
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+.sidebar {
+    padding: 0;
+}
+
+.login-signup-box {
+    padding: 30px;
+    background-color: #586167;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 2px solid #85b2d8;
+    color: #85b2d8;
+}
+
+.sign-up-button {
+    background-color: #85b2d8;
+    border: none;
+}
+
+.login-button, .sign-up-button, #btn-login-facebook, #btn-signup-facebook{
+    border-radius: 20px;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.login-button:hover, .sign-up-button:hover{
+    background-color: #81a8ca;
+}
+
+.login-button:hover {
+    border: 2px solid #85b2d8;
+}
+
+
+#btn-submit, .sign-up-button-modal {
+    background-color: #ff6b6b;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+#btn-submit:hover, .sign-up-button-modal:hover {
+    background-color: #e86262;
+    transition-duration: 0.3s;
+}
+
+.distance, .duration {
+    padding: 15px;
+    background-color: #586167;
+    color: #fff;
+}
+
+.status {
+    padding: 15px;
+    border-radius: 3px 3px 0 0; 
+}
+
+.distance {
+    background-color: ;
+    border-radius: 0 0 0 3px;
+}
+
+.duration {
+    background-color: ;
+    border-radius: 0 0 3px 0;
+}
+
+.form-control {
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    box-shadow: none;
+    color: #3d3d3d;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #ff6b6b;
+}
+
+p {
+    text-align: center;
+    color: #fff
+}
+
+.pnl-status-box {
+    padding: 0px;
+}
+
+.login-modal, .sign-up-modal{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+.login-title, .sign-up-title {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 3px 3px 0 0;
+}
+
+.login-title {
+    background-color: #81a8ca;
+}
+
+.sign-up-title {
+    background-color: #ff6b6b;
+}
+
+.modal-header {
+    padding: 0px;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.close {
+    text-shadow: none;
+    color: #fff;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+#btn-login-facebook, #btn-signup-facebook {
+    background-color: #3B5998;
+ 
+}
+
+.fill-up {
+    padding: 20px;
+}

@@ -1,0 +1,34 @@
+<ion-content>
+	<ion-row class="title_margin"  style="">
+    	<ion-col col-12 align="center" style="height: 10em; background-color: #85b2d8; color: #fff;">
+    	<h1><ion-icon name="map"></ion-icon></h1>
+    	<h2>Enter your route</h2>
+    	</ion-col>
+    	<ion-col col-12 align="center" style="margin-top: 2em;">
+    	<p>You will be receiving an SMS shortly</p>
+    	</ion-col>
+
+    	<ion-col class="center" align="center" col-10 style="margin-top: 1em;">
+    		<ion-list inset>
+
+			  <ion-item>
+			    <ion-label>From</ion-label>
+			    <ion-input type="text"></ion-input>
+			  </ion-item>
+
+			  <ion-item>
+			    <ion-label>To</ion-label>
+			    <ion-input type="text"></ion-input>
+			  </ion-item>
+
+			</ion-list>
+	    </ion-col>
+
+	    <ion-col class="center" align="center" col-10 style="margin-top: 5em;">
+			<button (click)="cancel()" id="home_btn" ion-button color="default" class="login-button" style="margin-left: 32px; background-color: #85b2d8; border: none; height: 40px; border-radius: 20px; width: 100%;">Login
+			</button>
+	    </ion-col>
+  	</ion-row>
+
+</ion-content>
+

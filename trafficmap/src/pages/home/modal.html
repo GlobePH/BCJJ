@@ -1,0 +1,30 @@
+<ion-content>
+	<ion-row class="title_margin"  style="">
+    	<ion-col col-12 align="center" style="height: 10em; background-color: #85b2d8; color: #fff;">
+    	<h1><ion-icon ios="ios-car" md="md-car"></ion-icon></h1>
+    	<h2>Login to your account</h2>
+    	</ion-col>
+    	<ion-col class="center" align="center" col-10 style="margin-top: 5em;">
+    		<ion-list>
+			  <ion-item>
+			    <ion-label color="primary">Email Address</ion-label>
+			    <ion-input [(ngModel)]="login_email" class="login-title" placeholder=""></ion-input>
+			  </ion-item>
+			  <ion-item>
+			    <ion-label color="primary">Password</ion-label>
+			    <ion-input [(ngModel)]="login_password" type="password" class="login-title" placeholder=""></ion-input>
+			  </ion-item>
+			</ion-list>
+	    </ion-col>
+
+	    <ion-col class="center" align="center" col-10 style="margin-top: 5em;">
+			<button (click)="goToOtherPage()" id="home_btn" ion-button color="default" class="login-button" style="margin-left: 32px; background-color: #85b2d8; border: none; height: 40px; border-radius: 20px; width: 100%;">Login
+			</button>
+	    </ion-col>
+	    <ion-col class="center" align="center" col-10 style="">
+			<button (click)="goToOtherPage()" id="home_btn" ion-button color="default" class="login-button" style="margin-left: 32px; background-color: #3B5998; border: none; height: 40px; border-radius: 20px; width: 100%;">Login through  <ion-icon name="logo-facebook" style="padding-left: 10px;"></ion-icon>
+			</button>
+	    </ion-col>
+  	</ion-row>
+
+</ion-content>
